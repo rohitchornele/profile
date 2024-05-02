@@ -8,7 +8,7 @@ const projects = [
   },
   {
     title : "Real-Estate-Site",
-    link : "https://vercel.com/rohit-chorneles-projects/real-estate/8E9qFtHrTNfBbwcZV1YJCXvNvMWq",
+    link : "https://real-estate-phi-pink.vercel.app/",
     technology: "React",
     github: ""
   },
