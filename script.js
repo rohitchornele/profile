@@ -4,7 +4,7 @@ const projects = [
     title : "Travel-Blog Website",
     link : "https://safaring-monk.onrender.com/",
     technology: "React",
-    github: ""
+    github: "https://github.com/rohitchornele/safaring_monk.git"
   },
   {
     title : "Real-Estate-Site",
@@ -21,8 +21,8 @@ const projects = [
   {
     title : "Zomato-Frontend",
     link : "https://luminous-mermaid-11c47d.netlify.app/",
-    technology: "React",
-    github: ""
+    technology: "HTML/CSS",
+    github: "https://luminous-mermaid-11c47d.netlify.app/"
   },
   {
     title : "Dentytech (Dribble)",

@@ -20,9 +20,10 @@ html, body {
     padding: 10px;
 }
 
-.table {
+.projectTable {
     width: 90%;
     padding: 10px;
+    overflow-x: auto;
 }
 
 .social {
