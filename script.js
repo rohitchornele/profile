@@ -10,13 +10,13 @@ const projects = [
     title : "Real-Estate-Site",
     link : "https://real-estate-phi-pink.vercel.app/",
     technology: "React",
-    github: ""
+    github: "https://github.com/rohitchornele/real-estate.git"
   },
   {
     title : "FullStack Crud App",
     link : "https://mern-crud-rc.netlify.app/",
     technology: "React",
-    github: ""
+    github: "https://github.com/rohitchornele/crud-app-frontend.git"
   },
   {
     title : "Zomato-Frontend",
@@ -27,59 +27,22 @@ const projects = [
   {
     title : "Dentytech (Dribble)",
     link : "https://dentytech-dribble.netlify.app/",
-    technology: "Javascript",
-    github: ""
+    technology: "HTML/CSS",
+    github: "https://github.com/rohitchornele/dentytech.git"
   },
   {
     title : "Draggable Componet",
     link : "https://draggable-components.netlify.app/",
     technology: "Javascript",
-    github: ""
+    github: "https://github.com/rohitchornele/draggable-components.git"
   },
   {
     title : "To-Do-List",
     link : "https://prismatic-belekoy-e715cd.netlify.app/",
     technology: "React",
-    github: ""
+    github: "https://github.com/rohitchornele/my-tasks.git"
   },
 ]
-
-const projectsDiv = document.getElementById("project-div");
-
-// const title = document.getElementById("title");
-// const link = document.getElementById("link");
-
-const getData = () => {
-  const newSpan = document.createElement("span");
-    
-    for (let i = 0; i < projects.length; i++){
-      const titleSpan = document.createElement("span");
-      const linkSpan = document.createElement("a");
-      const techSpan = document.createElement("span");
-      const gitSpan = document.createElement("a");
-
-      linkSpan.href = projects[i].link;
-      gitSpan.href = projects[i].github;
-      linkSpan.target = "_blank"
-      gitSpan.target = "_blank"
-
-      titleSpan.textContent = projects[i].title;
-      linkSpan.textContent = projects[i].link;
-      techSpan.textContent = projects[i].technology;
-      gitSpan.textContent = projects[i].github;
-      
-      projectsDiv.appendChild(titleSpan);
-      projectsDiv.appendChild(linkSpan);
-      projectsDiv.appendChild(techSpan);
-      projectsDiv.appendChild(gitSpan);
-      projectsDiv.appendChild(document.createElement("br"));
-      projectsDiv.appendChild(document.createElement("br"));
-    }
-}
-
-// getData();
-
-
 
 const buildTable = () => {
 
