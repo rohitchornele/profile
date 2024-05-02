@@ -77,30 +77,24 @@ const getData = () => {
     }
 }
 
-getData();
+// getData();
 
 
 
-// const dataArray = ["Data 1", "Data 2", "Data 3"];
+const buildTable = () => {
 
-//         // Get reference to the data container
-//         const dataContainer = document.getElementById("dataContainer");
+  var table = document.getElementById("myTable")
 
-//         // Function to create spans and load data into them
-//         function loadDataIntoSpans() {
-//             // Loop through the array and create spans with data
-//             for (let i = 0; i < dataArray.length; i++) {
-//                 // Create a new span element
-//                 const span = document.createElement("span");
-                
-//                 // Set the text content of the span
-                
-//                 // Append the span to the data container
-//                 dataContainer.appendChild(span);
-                
-//                 // Add a line break after each span
-//             }
-//         }
+  for (let i = 0; i < projects.length; i++){
+    var row = `<tr>
+      <td>${projects[i].title}</td>
+      <td> <a href=${projects[i].link} target="_blank">${projects[i].link}</a></td>
+      <td>${projects[i].technology}</td>
+      <td><a href=${projects[i].github} target="_blank">${projects[i].github}</a></td>
+    </tr>`
 
-//         // Call the function to load data into spans
-//         // loadDataIntoSpans();
+    table.innerHTML += row;
+  }
+}
+
+buildTable();
