@@ -50,11 +50,9 @@ only screen and (max-width: 760px) {
     .projectDiv {
         width: 100%;
         overflow-x: auto;
-    }
-
-    .projectTable {
-        width: 90%;
-        overflow: auto;
-        max-width: 500px;
+        display: flex;
+        flex-direction: row;
+        align-items: start;
+        justify-content: start;
     }
 }
