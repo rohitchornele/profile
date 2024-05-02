@@ -24,6 +24,8 @@ html, body {
     width: 90%;
     padding: 10px;
     overflow-x: auto;
+    
+  border-collapse: collapse; 
 }
 
 .social {
@@ -40,4 +42,19 @@ html, body {
 
 .social>a>.fa-linkedin{
     color: #0a66c2
+}
+
+
+@media 
+only screen and (max-width: 760px) {
+    .projectDiv {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .projectTable {
+        width: 90%;
+        overflow: auto;
+        max-width: 500px;
+    }
 }

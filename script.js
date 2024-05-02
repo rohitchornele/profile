@@ -33,7 +33,7 @@ const projects = [
   {
     title : "Draggable Componet",
     link : "https://draggable-components.netlify.app/",
-    technology: "Javascript",
+    technology: "React",
     github: "https://github.com/rohitchornele/draggable-components.git"
   },
   {
