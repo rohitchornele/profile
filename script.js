@@ -22,7 +22,7 @@ const projects = [
     title : "Zomato-Frontend",
     link : "https://luminous-mermaid-11c47d.netlify.app/",
     technology: "HTML/CSS",
-    github: "https://luminous-mermaid-11c47d.netlify.app/"
+    github: "https://github.com/rohitchornele/zomato-clone.git"
   },
   {
     title : "Dentytech (Dribble)",
